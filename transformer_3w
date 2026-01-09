@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Top left connection line -->
+    <line x1="30" y1="60" x2="65" y2="60" stroke="black" stroke-width="2"/>
+
+    <!-- Bottom left connection line -->
+    <line x1="30" y1="90" x2="65" y2="90" stroke="black" stroke-width="2"/>
+
+    <!-- Right connection line -->
+    <line x1="135" y1="75" x2="170" y2="75" stroke="black" stroke-width="2"/>
+
+    <!-- Top left circle (primary winding 1) - moved down -->
+    <circle cx="85" cy="60" r="20" fill="none" stroke="black" stroke-width="2"/>
+
+    <!-- Bottom left circle (primary winding 2) - moved up, overlapping with top circle -->
+    <circle cx="85" cy="90" r="20" fill="none" stroke="black" stroke-width="2"/>
+
+    <!-- Right circle (secondary winding) - overlapping with both left circles -->
+    <circle cx="115" cy="75" r="20" fill="none" stroke="black" stroke-width="2"/>
+  </svg>
+</svg>
