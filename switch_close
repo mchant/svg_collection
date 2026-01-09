@@ -1,0 +1,20 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Input line (left side) -->
+    <line x1="48" y1="55" x2="75" y2="55" stroke="black" stroke-width="2"/>
+
+    <!-- Output line (right side) -->
+    <line x1="135" y1="55" x2="162" y2="55" stroke="black" stroke-width="2"/>
+
+    <!-- Point 2: Pivot point (left side connection) -->
+    <circle cx="75" cy="55" r="3" fill="black"/>
+
+    <!-- Point 3: Where the arm swings to (would connect when closed) -->
+    <circle cx="125" cy="55" r="3" fill="black"/>
+
+    <!-- Line from Point 3 to Point 4 -->
+    <line x1="125" y1="55" x2="135" y2="55" stroke="black" stroke-width="2"/>
+
+    <!-- Lever arm extending from pivot through point 3 and beyond (showing open position) -->
+    <line x1="75" y1="55" x2="123" y2="55" stroke="black" stroke-width="3"/>
+  
+</svg>
